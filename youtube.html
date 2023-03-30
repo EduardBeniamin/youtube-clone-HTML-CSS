@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://www.youtube.com/s/desktop/d5cebff0/img/favicon.ico"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube Clone</title>
+  </head>
+  <body>
+    <header>
+      <div class="left-section">
+        <img class="hamburger-menu" src="/icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="/icons/youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="/icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="/icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="/icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="/icons/youtube-apps.svg" />
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="/icons/notifications.svg" />
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img
+          class="current-user-picture"
+          src="/channel-pictures/my-channel.jpeg"
+        />
+      </div>
+    </header>
+
+    <div class="second-header">
+      <div class="chip">All</div>
+      <div class="chip">In Play</div>
+      <div class="chip">The music</div>
+      <div class="chip">Games</div>
+      <div class="chip">Visual Arts</div>
+      <div class="chip">Recently Uploaded</div>
+      <div class="chip">Watched</div>
+    </div>
+
+    <nav>
+      <div class="sidebar-link">
+        <img src="/icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icons/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icons/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icons/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icons/youtube-music.svg" />
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="/icons/library.svg" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+              <img class="thumbnail" src="/thumbnails/marques.webp" />
+            </a>
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="container-grid">
+            <a href="https://www.youtube.com/c/mkbhd">
+              <img
+                class="profile-picture"
+                src="/channel-pictures/channel-marq.jpeg"
+              />
+            </a>
+            <div class="video-info">
+              <p class="video-title">
+                <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </a>
+              </p>
+              <p class="video-author">
+                <a href="https://www.youtube.com/c/mkbhd">Marques Brownlee</a>
+              </p>
+              <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+            <div class="menu-more-container">
+              <button class="menu-more-btn">
+                <img class="menu-more-icon" src="/icons/menu-more.svg" />
+                <div class="menu-more-dialog">
+                  <div class="menu-more-action">
+                    <img class="queue-icon" src="/icons/queue.svg" />
+                    <div class="queue-text">Add to queue</div>
+                  </div>
+                  <div class="menu-more-action">
+                    <img class="send-icon" src="/icons/send.svg" />
+                    <div class="send-text">Send</div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="/thumbnails/mark.webp" />
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="container-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="/channel-pictures/channel-mark.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Try Not To Laugh Challenge #9</p>
+              <p class="video-author">Markiplier</p>
+              <p class="video-stats">19M views &#183; 4 years ago</p>
+            </div>
+            <div class="menu-more-container">
+              <button class="menu-more-btn">
+                <img class="menu-more-icon" src="/icons/menu-more.svg" />
+                <div class="menu-more-dialog">
+                  <div class="menu-more-action">
+                    <img class="queue-icon" src="/icons/queue.svg" />
+                    <div class="queue-text">Add to queue</div>
+                  </div>
+                  <div class="menu-more-action">
+                    <img class="send-icon" src="/icons/send.svg" />
+                    <div class="send-text">Send</div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="/thumbnails/SSSniper.webp" />
+            <div class="video-time">9:13</div>
+          </div>
+          <div class="container-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="/channel-pictures/SSSniper.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+              <p class="video-author">SSSniperWolf</p>
+              <p class="video-stats">12M views &#183; 1 year ago</p>
+            </div>
+            <div class="menu-more-container">
+              <button class="menu-more-btn">
+                <img class="menu-more-icon" src="/icons/menu-more.svg" />
+                <div class="menu-more-dialog">
+                  <div class="menu-more-action">
+                    <img class="queue-icon" src="/icons/queue.svg" />
+                    <div class="queue-text">Add to queue</div>
+                  </div>
+                  <div class="menu-more-action">
+                    <img class="send-icon" src="/icons/send.svg" />
+                    <div class="send-text">Send</div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="/thumbnails/vertasium.webp" />
+            <div class="video-time">22:09</div>
+          </div>
+          <div class="container-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="/channel-pictures/veritasium.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+              <p class="video-author">Veritasium</p>
+              <p class="video-stats">18M views &#183; 4 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="/thumbnails/algoritm.webp" />
+            <div class="video-time">11:17</div>
+          </div>
+          <div class="container-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="/channel-pictures/algoritm.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+              <p class="video-author">CS Dojo</p>
+              <p class="video-stats">519K views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="/thumbnails/mrBeast.webp" />
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="container-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="/channel-pictures/mrBeast.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+              <p class="video-author">MrBeast</p>
+              <p class="video-stats">141M views &#183; 1 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="/thumbnails/tibet.webp" />
+            <div class="video-time">10:13</div>
+          </div>
+          <div class="container-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="/channel-pictures/tibet.jpeg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Why Planes Don't Fly Over Tibet</p>
+              <p class="video-author">RealLifeLore</p>
+              <p class="video-stats">6.6M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="/thumbnails/tech.webp" />
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="container-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="/channel-pictures/tech.jpeg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Inside The World's Biggest Passenger Plane
+              </p>
+              <p class="video-author">Tech Vision</p>
+              <p class="video-stats">3.7M views &#183; 10 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="/thumbnails/thenX.webp" />
+            <div class="video-time">13:17</div>
+          </div>
+          <div class="container-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="/channel-pictures/thenX.jpeg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">The SECRET to Super Human STRENGTH</p>
+              <p class="video-author">ThenX</p>
+              <p class="video-stats">20M views &#183; 3 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="/thumbnails/business.webp" />
+            <div class="video-time">7:53</div>
+          </div>
+          <div class="container-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="/channel-pictures/business.jpeg"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+              </p>
+              <p class="video-author">Business Insider/p></p>
+              <p class="video-stats">14M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="/thumbnails/dubai.webp" />
+            <div class="video-time">4:10</div>
+          </div>
+          <div class="container-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="/channel-pictures/dubai.jpeg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+              </p>
+              <p class="video-author">Destination Tips</p>
+              <p class="video-stats">3M views &#183; 1 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="/thumbnails/ted.webp" />
+            <div class="video-time">4:51</div>
+          </div>
+          <div class="container-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="/channel-pictures/ted.jpeg" />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                What would happen if you didn’t drink water? - Mia Nacamulli
+              </p>
+              <p class="video-author">TED-Ed</p>
+              <p class="video-stats">12M views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shorts">
+        <div class="shorts-title">
+          <img src="/icons/shorts.svg" />
+          <div>Shorts</div>
+        </div>
+
+        <div class="shorts-flex-container">
+          <div class="shorts-video-preview">
+            <a href="https://www.youtube.com/shorts/cMtYwPcwcBU">
+              <img class="shorts-thumbnail" src="/shorts-thumbnails/kevin.webp" />
+            </a>
+            <div class="shorts-grid-layout">
+              <div class="shorts-stats-info">
+                <div class="video-title">
+                  <a href="https://www.youtube.com/shorts/cMtYwPcwcBU">Don't learn web dev this way</a>
+                </div>
+                <p class="video-stats">226k views</p>
+              </div>
+              <div class="menu-more-container">
+                <button class="menu-more-btn">
+                  <img class="menu-more-icon" src="/icons/menu-more.svg" />
+                  <div class="menu-more-dialog">
+                    <div class="menu-more-action">
+                      <img class="sms-failed-icon" src="/icons/sms-failed.svg" />
+                      <div class="sms-failed-text">Send feedback</div>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="shorts-video-preview">
+            <a href="https://www.youtube.com/shorts/iYPIWFHXFg4">
+              <img class="shorts-thumbnail" src="/shorts-thumbnails/go.webp" />
+            </a>
+            <div class="shorts-grid-layout">
+              <div class="shorts-stats-info">
+                <div class="video-title">
+                  <a href="https://www.youtube.com/shorts/iYPIWFHXFg4">The FASTEST way to create a backend for your app</a>
+                </div>
+                <p class="video-stats">141k views</p>
+              </div>
+              <div class="menu-more-container">
+                <button class="menu-more-btn">
+                  <img class="menu-more-icon" src="/icons/menu-more.svg" />
+                  <div class="menu-more-dialog">
+                    <div class="menu-more-action">
+                      <img class="sms-failed-icon" src="/icons/sms-failed.svg" />
+                      <div class="sms-failed-text">Send feedback</div>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="shorts-video-preview">
+            <a href="https://www.youtube.com/shorts/bs0hdVloF40">
+              <img class="shorts-thumbnail" src="/shorts-thumbnails/calculus.webp" />
+            </a>
+            <div class="shorts-grid-layout">
+              <div class="shorts-stats-info">
+                <div class="video-title">
+                  <a href="https://www.youtube.com/shorts/bs0hdVloF40">I Wish I Saw This Before Claculus</a>
+                </div>
+                <p class="video-stats">2.9 milion views</p>
+              </div>
+              <div class="menu-more-container">
+                <button class="menu-more-btn">
+                  <img class="menu-more-icon" src="/icons/menu-more.svg" />
+                  <div class="menu-more-dialog">
+                    <div class="menu-more-action">
+                      <img class="sms-failed-icon" src="/icons/sms-failed.svg" />
+                      <div class="sms-failed-text">Send feedback</div>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="shorts-video-preview">
+            <a href="https://www.youtube.com/shorts/746mfQalS48">
+              <img class="shorts-thumbnail" src="/shorts-thumbnails/engineer.webp" />
+            </a>
+            <div class="shorts-grid-layout">
+              <div class="shorts-stats-info">
+                <div class="video-title">
+                  <a href="https://www.youtube.com/shorts/746mfQalS48">Senior Programmers vs Junior Developers #shorts</a>
+                </div>
+                <p class="video-stats">7.5 milion views</p>
+              </div>
+              <div class="menu-more-container">
+                <button class="menu-more-btn">
+                  <img class="menu-more-icon" src="/icons/menu-more.svg" />
+                  <div class="menu-more-dialog">
+                    <div class="menu-more-action">
+                      <img class="sms-failed-icon" src="/icons/sms-failed.svg" />
+                      <div class="sms-failed-text">Send feedback</div>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="shorts-video-preview">
+            <a href="https://www.youtube.com/shorts/co9g4V9qw9o">
+              <img class="shorts-thumbnail" src="/shorts-thumbnails/elon.webp" />
+            </a>
+            <div class="shorts-grid-layout">
+              <div class="shorts-stats-info">
+                <div class="video-title">
+                  <a href="https://www.youtube.com/shorts/co9g4V9qw9o">Elon Musk couldn't answer a simple question</a>
+                </div>
+                <p class="video-stats">3 milion views</p>
+              </div>
+              <div class="menu-more-container">
+                <button class="menu-more-btn">
+                  <img class="menu-more-icon" src="/icons/menu-more.svg" />
+                  <div class="menu-more-dialog">
+                    <div class="menu-more-action">
+                      <img class="sms-failed-icon" src="/icons/sms-failed.svg" />
+                      <div class="sms-failed-text">Send feedback</div>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="shorts-video-preview">
+            <a href="https://www.youtube.com/shorts/5lvXwWJU17c">
+              <img class="shorts-thumbnail" src="/shorts-thumbnails/VSC.webp" />
+            </a>
+            <div class="shorts-grid-layout">
+              <div class="shorts-stats-info">
+                <div class="video-title">
+                  <a href="https://www.youtube.com/shorts/5lvXwWJU17c">Build desktop apps with JavaScript easily</a>
+                </div>
+                <p class="video-stats">112K views</p>
+              </div>
+              <div class="menu-more-container">
+                <button class="menu-more-btn">
+                  <img class="menu-more-icon" src="/icons/menu-more.svg" />
+                  <div class="menu-more-dialog">
+                    <div class="menu-more-action">
+                      <img class="sms-failed-icon" src="/icons/sms-failed.svg" />
+                      <div class="sms-failed-text">Send feedback</div>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="shorts-video-preview">
+            <a href="https://www.youtube.com/shorts/5E18oUTMKeQ">
+              <img class="shorts-thumbnail" src="/shorts-thumbnails/parents.webp" />
+            </a>
+            <div class="shorts-grid-layout">
+              <div class="shorts-stats-info">
+                <div class="video-title">
+                  <a href="https://www.youtube.com/shorts/5E18oUTMKeQ">Parents Laugh at Kid Putting Temporary Tattoos on Baby</a>
+                </div>
+                <p class="video-stats">8.8 milion views</p>
+              </div>
+              <div class="menu-more-container">
+                <button class="menu-more-btn">
+                  <img class="menu-more-icon" src="/icons/menu-more.svg" />
+                  <div class="menu-more-dialog">
+                    <div class="menu-more-action">
+                      <img class="sms-failed-icon" src="/icons/sms-failed.svg" />
+                      <div class="sms-failed-text">Send feedback</div>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
