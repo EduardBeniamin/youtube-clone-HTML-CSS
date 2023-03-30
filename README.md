@@ -1,2 +1,2 @@
 # youtube-clone-HTML-CSS
-![youtube](https://user-images.githubusercontent.com/62416765/228915808-2482a2d6-7bbc-4f34-a501-1866025ab0c4.PNG)
+![youtube](https://user-images.githubusercontent.com/62416765/228916036-a4df3270-647d-478a-8617-9b4de3b19fea.PNG)
